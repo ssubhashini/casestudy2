@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Signin",
+        "description": "",
+        "id": "signin-functions;signin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25782739800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "stepdesfile.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208963000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "give ganaprakash",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganaprakash",
+                  "offset": 5
+                }
+              ],
+              "location": "stepdesfile.give_lalitha(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183255200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giving subha123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "subha123",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdesfile.giving_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2066407100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login",
+            "match": {
+              "location": "stepdesfile.click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Signin functions",
+    "description": "  This files describes the signin functionality",
+    "id": "signin-functions",
+    "keyword": "Feature",
+    "uri": "src/test/resources/casestudy2/casestudy.feature",
+    "tags": []
+  }
+]
