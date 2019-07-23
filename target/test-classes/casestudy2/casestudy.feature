@@ -7,5 +7,5 @@ Scenario Outline: Signin
  And click login
 
  Examples:
-  |username   | password    |
-  | lalitha   | password123 |
+  |username      | password |
+  | ganaprakash  | subha123 |
